@@ -5,11 +5,13 @@ import sys
 from time import sleep
 import os
 
+
+# skip AD function.
 def skip_fun():    
     sleep(6)
     skip = browser.find_elements_by_class_name("ytp-ad-skip-button")
     
-    try:
+    try: 
         skip[0].click()
     except:
         sleep(second-6)
@@ -56,7 +58,7 @@ i=0
 while True:
     i+=1
     video.screenshot(f"{title}/{i}.png")
-    sleep(.05)
+    sleep(.05) # change speed
     
 
 
