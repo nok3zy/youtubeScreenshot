@@ -1,5 +1,7 @@
 # Youtube Auto Screenshot
 
+# Python, Selenium
+
 ## 문제점. Problems
 ```
 동영상을 틀고서 스크린샷을 0.05~0.1초마다 실행해서 하려고 했으나 스크린샷의 속도가 따라오지를 못함.  
